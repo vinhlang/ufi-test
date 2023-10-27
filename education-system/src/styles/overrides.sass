@@ -1,0 +1,27 @@
+$table-font-color: #3A4458
+$table-header-color: #F0F4F7
+.app-table
+  thead
+    th
+      color: $table-font-color !important
+      background-color: $table-header-color !important
+  tbody
+    tr
+      &:nth-child(2n)
+        td
+          background-color: #F9FAFC !important
+      &:hover
+        td
+          background-color: #EEEEEE !important
+.v-table
+  &.table-border
+    table
+      > thead > tr > th,
+      > tbody > tr > td
+        border-right: 1px solid #dfe7ec !important
+  .v-data-table-footer
+    border-top: 1px solid #E0E0E0
+    padding: 4px !important
+
+.v-application
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,"sans-serif" !important

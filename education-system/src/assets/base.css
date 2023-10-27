@@ -1,0 +1,22 @@
+label, p {
+  margin: 0;
+}
+.v-row {
+  margin: 0 !important;
+}
+div[class^="v-col"] {
+}
+
+:root {
+  --v-medium-emphasis-opacity: 0.9;
+  --html-scroll: auto;
+}
+
+html {
+  overflow-y: var(--html-scroll) !important;
+}
+
+.dp__input {
+  height: 44px !important;
+  border: 1px solid #a6a6a6 !important;
+}
